@@ -14,7 +14,7 @@ others_places = []
 MR_YESNO = 4
 window = Tkinter.Tk()
 window.title('Achtung')  # sets title of window
-window.iconbitmap(path.realpath('icon.ico'))  # sets icon of window
+#window.iconbitmap(path.realpath('icon.ico'))  # sets icon of window
 Tkinter.Label(text='Enter the IP address of the server, press Enter when you are done\nMAKE SURE YOU ENTER THE CORRECT'
                    ' ONE\n (if server on same pc, just press Enter now)').pack()
 ip = Tkinter.Entry(window)  # defines a widget to edit text on window
